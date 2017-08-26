@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+//import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
 import { createStore } from 'redux'
 import { Provider, connect } from 'react-redux'
@@ -17,10 +17,10 @@ class Counter extends Component {
   }
 }
 
-Counter.propTypes = {
-  value: PropTypes.number.isRequired,
-  onIncreaseClick: PropTypes.func.isRequired
-}
+//Counter.propTypes = {
+//value: PropTypes.number.isRequired,
+//onIncreaseClick: PropTypes.func.isRequired
+//}
 
 // Action
 const increaseAction = { type: 'increase' }
